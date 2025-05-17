@@ -1,0 +1,150 @@
+мая 16, 2025 1:26:41 AM util.CustomThreadFactory newThread
+INFO: [ThreadFactory] Creating new thread: MyPool-worker-1
+мая 16, 2025 1:26:41 AM util.CustomThreadFactory newThread
+INFO: [ThreadFactory] Creating new thread: MyPool-worker-2
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #0: Main$$Lambda/0x000001d581004658@4bf558aa
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #1: Main$$Lambda/0x000001d581004658@2d38eb89
+мая 16, 2025 1:26:41 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-1 executes Main$$Lambda/0x000001d581004658@4bf558aa
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #0: Main$$Lambda/0x000001d581004658@5fa7e7ff
+мая 16, 2025 1:26:41 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-2 executes Main$$Lambda/0x000001d581004658@2d38eb89
+мая 16, 2025 1:26:41 AM Main lambda$main$0
+INFO: Task 1 started
+мая 16, 2025 1:26:41 AM util.CustomThreadFactory newThread
+INFO: [ThreadFactory] Creating new thread: MyPool-worker-3
+мая 16, 2025 1:26:41 AM Main lambda$main$0
+INFO: Task 2 started
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #1: Main$$Lambda/0x000001d581004658@4629104a
+мая 16, 2025 1:26:41 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-3 executes Main$$Lambda/0x000001d581004658@5fa7e7ff
+мая 16, 2025 1:26:41 AM util.CustomThreadFactory newThread
+INFO: [ThreadFactory] Creating new thread: MyPool-worker-4
+мая 16, 2025 1:26:41 AM Main lambda$main$0
+INFO: Task 3 started
+мая 16, 2025 1:26:41 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-4 executes Main$$Lambda/0x000001d581004658@4629104a
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #0: Main$$Lambda/0x000001d581004658@27f8302d
+мая 16, 2025 1:26:41 AM Main lambda$main$0
+INFO: Task 4 started
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #1: Main$$Lambda/0x000001d581004658@4d76f3f8
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #0: Main$$Lambda/0x000001d581004658@2d8e6db6
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #1: Main$$Lambda/0x000001d581004658@23ab930d
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #0: Main$$Lambda/0x000001d581004658@4534b60d
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #1: Main$$Lambda/0x000001d581004658@3fa77460
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #0: Main$$Lambda/0x000001d581004868@1ed6993a
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #1: Main$$Lambda/0x000001d581004868@7e32c033
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #0: Main$$Lambda/0x000001d581004868@7ab2bfe1
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #1: Main$$Lambda/0x000001d581004868@497470ed
+мая 16, 2025 1:26:41 AM util.CustomThreadPool execute
+INFO: [Pool] Task accepted into queue #0: Main$$Lambda/0x000001d581004868@63c12fb0
+мая 16, 2025 1:26:41 AM util.CustomThreadPool$CustomRejectionHandler rejectedExecution
+SEVERE: [Rejected] Task Main$$Lambda/0x000001d581004868@63c12fb0 was rejected due to overload!
+мая 16, 2025 1:26:41 AM Main main
+SEVERE: Some tasks were rejected due to pool overload
+мая 16, 2025 1:26:42 AM Main lambda$main$0
+INFO: Task 2 completed
+мая 16, 2025 1:26:42 AM Main lambda$main$0
+INFO: Task 1 completed
+мая 16, 2025 1:26:42 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-2 executes Main$$Lambda/0x000001d581004658@4d76f3f8
+мая 16, 2025 1:26:42 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-1 executes Main$$Lambda/0x000001d581004658@27f8302d
+мая 16, 2025 1:26:42 AM Main lambda$main$0
+INFO: Task 6 started
+мая 16, 2025 1:26:42 AM Main lambda$main$0
+INFO: Task 5 started
+мая 16, 2025 1:26:42 AM Main lambda$main$0
+INFO: Task 4 completed
+мая 16, 2025 1:26:42 AM Main lambda$main$0
+INFO: Task 3 completed
+мая 16, 2025 1:26:42 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-4 executes Main$$Lambda/0x000001d581004658@23ab930d
+мая 16, 2025 1:26:42 AM Main lambda$main$0
+INFO: Task 8 started
+мая 16, 2025 1:26:42 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-3 executes Main$$Lambda/0x000001d581004658@2d8e6db6
+мая 16, 2025 1:26:42 AM Main lambda$main$0
+INFO: Task 7 started
+мая 16, 2025 1:26:43 AM Main lambda$main$0
+INFO: Task 5 completed
+мая 16, 2025 1:26:43 AM Main lambda$main$0
+INFO: Task 6 completed
+мая 16, 2025 1:26:43 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-1 executes Main$$Lambda/0x000001d581004658@4534b60d
+мая 16, 2025 1:26:43 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-2 executes Main$$Lambda/0x000001d581004658@3fa77460
+мая 16, 2025 1:26:43 AM Main lambda$main$0
+INFO: Task 9 started
+мая 16, 2025 1:26:43 AM Main lambda$main$0
+INFO: Task 10 started
+мая 16, 2025 1:26:43 AM Main lambda$main$0
+INFO: Task 7 completed
+мая 16, 2025 1:26:43 AM Main lambda$main$0
+INFO: Task 8 completed
+мая 16, 2025 1:26:43 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-3 executes Main$$Lambda/0x000001d581004868@1ed6993a
+мая 16, 2025 1:26:43 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-4 executes Main$$Lambda/0x000001d581004868@7e32c033
+мая 16, 2025 1:26:43 AM Main lambda$main$1
+INFO: Task 11 started
+мая 16, 2025 1:26:43 AM Main lambda$main$1
+INFO: Task 12 started
+мая 16, 2025 1:26:44 AM Main lambda$main$0
+INFO: Task 9 completed
+мая 16, 2025 1:26:44 AM Main lambda$main$0
+INFO: Task 10 completed
+мая 16, 2025 1:26:44 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-2 executes Main$$Lambda/0x000001d581004868@497470ed
+мая 16, 2025 1:26:44 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-1 executes Main$$Lambda/0x000001d581004868@7ab2bfe1
+мая 16, 2025 1:26:44 AM Main lambda$main$1
+INFO: Task 14 started
+мая 16, 2025 1:26:44 AM Main lambda$main$1
+INFO: Task 13 started
+мая 16, 2025 1:26:44 AM Main lambda$main$1
+INFO: Task 12 completed
+мая 16, 2025 1:26:44 AM Main lambda$main$1
+INFO: Task 11 completed
+мая 16, 2025 1:26:45 AM Main lambda$main$1
+INFO: Task 14 completed
+мая 16, 2025 1:26:45 AM Main lambda$main$1
+INFO: Task 13 completed
+мая 16, 2025 1:26:49 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-3 idle timeout, stopping
+мая 16, 2025 1:26:49 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-4 idle timeout, stopping
+мая 16, 2025 1:26:49 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-4 terminated
+мая 16, 2025 1:26:49 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-3 terminated
+мая 16, 2025 1:26:50 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-2 idle timeout, stopping
+мая 16, 2025 1:26:50 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-1 idle timeout, stopping
+мая 16, 2025 1:26:51 AM Main main
+INFO: Pool shutdown initiated
+мая 16, 2025 1:26:51 AM Main main
+INFO: All tasks completed, pool terminated
+мая 16, 2025 1:26:55 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-1 idle timeout, stopping
+мая 16, 2025 1:26:55 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-1 terminated
+мая 16, 2025 1:26:55 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-2 idle timeout, stopping
+мая 16, 2025 1:26:55 AM util.CustomThreadPool$Worker run
+INFO: [Worker] MyPool-worker-2 terminated
